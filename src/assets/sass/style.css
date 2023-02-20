@@ -1,0 +1,161 @@
+.nav {
+  background-color: #f0f1f2;
+}
+
+.hero {
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.text span {
+  color: #1b5fc7;
+}
+.text .box {
+  border: 1px dotted black;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text .box p {
+  color: #f17e59;
+}
+.text .mybtn {
+  width: 40%;
+}
+
+.footer {
+  background-color: #101320;
+  height: auto;
+}
+.footer .text-white1 {
+  color: #fff;
+  border-right: 1px solid rgba(249, 249, 250, 0.06);
+}
+.footer .text-white1 .mytext {
+  color: #f17e59;
+}
+
+.footerLast {
+  background-color: #181c2b;
+  height: auto;
+}
+
+.first {
+  height: 40vh;
+  background-color: #0940b2;
+}
+.first .box {
+  border: 1px dotted white;
+  color: #fff;
+}
+.first .box:hover {
+  color: #f17e59;
+  cursor: pointer;
+}
+.first .box span {
+  color: #f17e59;
+}
+
+.second .card {
+  padding: 20px;
+  background-color: #f9f9fa;
+  border: none;
+  height: 400px;
+  transition: all 0.5s ease;
+}
+.second .card img {
+  width: 100px;
+}
+.second .card .img1 {
+  display: block;
+  transition: all 0.5s ease;
+}
+.second .card .img2 {
+  display: none;
+  transition: all 0.5s ease;
+}
+.second .card:hover {
+  background-color: #0940b2;
+  color: #fff;
+  cursor: pointer;
+}
+.second .card:hover a {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.second .card:hover .img1 {
+  display: none;
+}
+.second .card:hover .img2 {
+  display: block;
+}
+.second .my-btn {
+  border: 1px solid #e0e3e7;
+}
+
+.third {
+  background-color: #f17e59;
+  height: auto;
+}
+.third .mybtn {
+  width: 20%;
+  height: 70px;
+  background-image: linear-gradient(270deg, rgb(73, 163, 254) 0%, rgb(0, 55, 172) 100%);
+  border: none;
+}
+
+.second-con {
+  background-color: #f9f9fa;
+}
+.second-con .box {
+  border: 1px solid #eaeef4;
+  border-radius: 10px;
+  background: #fff;
+  padding: 38px 40px 45px;
+  transition: all 0.5s ease;
+  height: 300px;
+}
+.second-con .box:hover {
+  background: #101320;
+  cursor: pointer;
+}
+.second-con .box:hover h3 {
+  color: #fff;
+}
+.second-con .box:hover p {
+  color: #595d6b;
+}
+
+.third-con .box1 {
+  border: 1px dotted #f17e59;
+  color: #f17e59;
+}
+.third-con input {
+  background-color: #f9f9fa;
+  border: none;
+  height: 60px;
+}
+.third-con textarea {
+  width: 100%;
+  border: none;
+  background-color: #f9f9fa;
+}
+.third-con .mybtn {
+  background-image: linear-gradient(270deg, rgb(73, 163, 254) 0%, rgb(0, 55, 172) 100%);
+  border: none;
+  color: #fff;
+}
+
+.four-con {
+  width: 100%;
+}
+.four-con iframe {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
