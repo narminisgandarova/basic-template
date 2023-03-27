@@ -68,11 +68,6 @@
     border: none;
     height: 400px;
     transition: all 0.5s ease;
-//    background: linear-gradient(
-//         350deg,
-//         rgb(18, 81, 192) 0%,
-//         rgba(28, 97, 204, 0) 100%
-//       );
     img {
       width: 100px;
     }
@@ -170,5 +165,32 @@
   width: 100%;
   iframe {
     width: 100%;
+  }
+}
+//store
+.card{
+  img{
+    height: 400px;
+  }
+}
+//projects
+.myrow{
+  img{
+    position: relative;
+    &::after{
+      content: '';
+      height: 0px;
+      width: 0;
+      background-color: #0940b2;
+      cursor: pointer;
+      position: absolute;
+      top: 0px;
+      transition:all .3s ease ;
+
+      
+    }
+    &:hover::after{
+      height: 100%;
+    }
   }
 }

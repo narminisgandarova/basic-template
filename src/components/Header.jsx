@@ -21,8 +21,14 @@ const Header = () => {
             <LinkContainer to="/service">
             <Nav.Link href="#link">Service</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/store">
+            <Nav.Link href="#link">Store</Nav.Link>
+            </LinkContainer>
            <LinkContainer to="/contact">
            <Nav.Link href="#link">Contact</Nav.Link>
+           </LinkContainer>
+           <LinkContainer to="/project">
+           <Nav.Link href="#link">Project</Nav.Link>
            </LinkContainer>
           </Nav>
           <Button variant="primary" className='rounded-pill fw-bolder'>Get Started</Button>

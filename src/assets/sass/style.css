@@ -158,4 +158,25 @@
 }
 .four-con iframe {
   width: 100%;
+}
+
+.card img {
+  height: 400px;
+}
+
+.myrow img {
+  position: relative;
+}
+.myrow img::after {
+  content: "";
+  height: 0px;
+  width: 0;
+  background-color: #0940b2;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  transition: all 0.3s ease;
+}
+.myrow img:hover::after {
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
